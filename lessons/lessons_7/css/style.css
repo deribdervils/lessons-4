@@ -4,4 +4,13 @@
     font-family: sans-serif;
     text-transform: none;
     text-decoration: none;
+    background: #a9a9a9;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    transition: all .1s ease-in
 }
+
+.grey[
+    border-top: 2px solid white;
+]
