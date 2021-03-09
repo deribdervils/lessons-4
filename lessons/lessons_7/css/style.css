@@ -4,13 +4,23 @@
     font-family: sans-serif;
     text-transform: none;
     text-decoration: none;
-    background: #a9a9a9;
-    font-size: 14px;
+    background: rgba(59, 63, 69, 0.5);
+    font-size : 14px;
     line-height: 1.5;
-    color: black;
-    transition: all .1s ease-in
+    color : white;
 }
 
-.grey[
-    border-top: 2px solid white;
-]
+.border_grey{
+    border: 2px solid rgba(136, 131, 158, 0.5); 
+    background:  rgba(136, 131, 158, 0.5);
+}
+.border_black{
+    border: 2px solid black; 
+    background:  rgb(32, 32, 32);
+}  
+
+.border_grey_title{
+    font-size : 12px;
+    line-height: 1.5;
+    color : rgb(0, 0, 0);
+}
