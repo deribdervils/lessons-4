@@ -8,19 +8,35 @@
     font-size : 14px;
     line-height: 1.5;
     color : white;
+    transition: all .1s ease-in;
 }
 
 .border_grey{
     border: 2px solid rgba(136, 131, 158, 0.5); 
     background:  rgba(136, 131, 158, 0.5);
 }
+
+.border_grey:active>span, .border_grey:active{
+    text-decoration: line-through;
+    color: rgb(173, 173, 173);
+    border: 2px solid rgb(255, 255, 255);
+}
+
 .border_black{
     border: 2px solid black; 
     background:  rgb(32, 32, 32);
 }  
 
-.border_grey_title{
+.border_black:active, .border_black:active>span{
+    text-decoration: line-through;
+    color: rgb(173, 173, 173);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.border_grey_title>span{
+    background: rgba(59, 63, 69, 0.5);
     font-size : 12px;
     line-height: 1.5;
-    color : rgb(0, 0, 0);
+    color : rgb(71, 71, 71);
+    color: rgb(173, 173, 173);
 }
