@@ -80,7 +80,8 @@ button{
     padding: 1px;
 }
 
-.box_black>label>input:checked + span{
+div > input:checked + label{
     text-decoration: line-through;
     color: yellow;
 }
+
