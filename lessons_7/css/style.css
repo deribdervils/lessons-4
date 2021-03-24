@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    transition: all .1s ease-in;
+    
+}
+
+h1{
+    font-size: 16px;
+    line-height: 1.5;
+    color: red;
+    text-align: center;
+}
+
+h2{
+    font-size: 14px;
+    line-height: 1.5;
+    color: red;
+    text-align: center;
+}
+
+.head{
+    background: rgb(88, 88, 88);
+    padding: 10px;
+}
+
+.body{
+    background: rgb(54, 54, 54);
+    max-width: 100%;
+    padding: 20px;
+}
+
+.box{
+    background: rgb(117, 117, 117);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.input{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.box_grey{
+    border-style: double; 
+    border-color: rgb(0, 0, 0);
+    background:rgb(122, 122, 122);
+    padding: 2px;
+}
+
+
+.box_black{
+    border-style: double; 
+    border-color: rgb(0, 0, 0);
+    background:rgb(46, 46, 46);
+    padding: 2px;
+}
+
+span{
+    font-size: 10px;
+    line-height: 1.5;
+    color:white
+}
+
+button{
+    font-size: 16px;
+    line-height: 1.5;
+    border-style: double;
+    border-color: black;
+    border-radius: 3px;
+    background-color: grey;
+    color:red;
+    padding: 1px;
+}
+
+div > input:checked + label{
+    text-decoration: line-through;
+    color: yellow;
+}
+
