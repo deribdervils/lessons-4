@@ -5,6 +5,7 @@
     text-transform: none;
     text-decoration: none;
     transition: all .1s ease-in;
+    background: rgb(51, 153, 204);
 }
 
 h1{
@@ -16,10 +17,58 @@ p{
     font-size: 15px;
     text-align: center;
 }
-
 .box{
-    margin: 0;
-    padding: 20px;
-    /* display: inline-block; */
-    
+    margin: 5%;
+    background-color:white;
+}
+
+
+.box_section{
+    height: 25%;
+    padding: 1px;
+    display: inline-block;
+}
+
+.lisbon{
+    width: 50%;
+}
+
+.paris{
+    width: 25%;
+}
+
+.belgrade{
+    width: 25%;
+}
+
+.moskow{
+    width: 25%;
+}
+
+.tel_aviv{
+    width: 25%;
+}
+
+.cair{
+    width: 25%;
+}
+
+.new_york{
+    width: 25%;
+}
+
+.new_delhi{
+    width: 25%;
+}
+
+.san_francisco{
+    width: 50%;
+}
+
+.tokyo{
+    width: 25%;
+}
+
+.sydney{
+    width: 100%;
 }
